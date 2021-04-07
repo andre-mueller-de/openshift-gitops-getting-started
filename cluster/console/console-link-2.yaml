@@ -1,0 +1,11 @@
+apiVersion: console.openshift.io/v1
+kind: ConsoleLink
+metadata:
+  name: application-menu-rh-doc-cluster.logging
+spec:
+  href: 'https://docs.openshift.com/container-platform/4.7/logging/cluster-logging-deploying.html'
+  location: ApplicationMenu
+  text: Red Hat Doc - CLuster Logging
+  applicationMenu:
+    section: Redhat Product Doc
+    imageURL: https://i.ibb.co/pZ0Lxdb/Logo-Red-Hat-Hat-Color-RGB.png
